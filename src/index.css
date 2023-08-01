@@ -11,7 +11,9 @@ a:hover {
   color: #535bf2;
 }
 
-body {
+html, body {
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
