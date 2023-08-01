@@ -127,7 +127,7 @@ function App() {
 
   return (
     // if darkMode is true, then add the dark-mode class
-    <div className={`${darkMode && "dark-mode"}`}>
+    <div className={`${darkMode && "dark-mode"} outer-container`}>
       <div className="container">
         <Header handleToggleDarkMode={setDarkMode} />
         <Inputs
@@ -160,6 +160,7 @@ function App() {
           <Legs legs={legs} />
         </div>
       </div>
+      <footer>created by Robert Yau</footer>
     </div>
   );
 }
