@@ -92,7 +92,7 @@ const stations = [
         "value": "1000017"
     },
     {
-        "key": "Battersea Power",
+        "key": "Battersea Power Station",
         "value": "1002195"
     },
     {
@@ -180,10 +180,6 @@ const stations = [
         "value": "1000032"
     },
     {
-        "key": "Bromley-By-Bow",
-        "value": "1000032"
-    },
-    {
         "key": "Brondesbury",
         "value": "1001038"
     },
@@ -225,10 +221,6 @@ const stations = [
     },
     {
         "key": "Cambridge Heath",
-        "value": "1001044"
-    },
-    {
-        "key": "Cambridge Heath (London)",
         "value": "1001044"
     },
     {
